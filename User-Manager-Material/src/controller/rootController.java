@@ -72,65 +72,76 @@ public class rootController {
     
     @FXML
     void changeStateAWS(ActionEvent event) {
+    	System.out.println("Ändere den Status von: " +  event.getSource());
+
     }
 
     @FXML
     void changeStateAuth0(ActionEvent event) {
+    	System.out.println("Ändere den Status von: " +  event.getSource());
 
     }
 
     @FXML
     void changeStateGit(ActionEvent event) {
+    	System.out.println("Ändere den Status von: " +  event.getSource());
 
     }
 
     @FXML
     void changeStateNAS(ActionEvent event) {
+    	System.out.println("Ändere den Status von: " +  event.getSource());
 
     }
 
     @FXML
     void changeStateSlack(ActionEvent event) {
+    	System.out.println("Ändere den Status von: " +  event.getSource());
 
     }
 
     @FXML
     void changeStateSubversion(ActionEvent event) {
+    	System.out.println("Ändere den Status von: " +  event.getSource());
 
     }
 
     @FXML
     void changeStateTelefonanlage(ActionEvent event) {
+    	System.out.println("Ändere den Status von: " +  event.getSource());
 
     }
 
     @FXML
     void changeStateTimebutler(ActionEvent event) {
+    	System.out.println("Ändere den Status von: " +  event.getSource());
 
     }
 
     @FXML
     void changeStateVPN(ActionEvent event) {
+    	System.out.println("Ändere den Status von: " +  event.getSource());
 
     }
 
     @FXML
     void changeStateWLAN(ActionEvent event) {
-
+    	System.out.println("Ändere den Status von: " +  event.getSource());
     }
     
     @FXML
     void addUser(ActionEvent event) {
-
+    	System.out.println("Füge einen Benutzer hinzu");
     }
 
     @FXML
     void deleteUser(ActionEvent event) {
+    	System.out.println("Lösche den Benutzer: " + userList.getSelectionModel().getSelectedItem());
     }
 
     @FXML
     void openSettings(ActionEvent event) {
-
+    	System.out.println("Öffne die Einstellungen");
     }
 
 
@@ -146,8 +157,7 @@ public class rootController {
     void initialize() {
     	ExampleUserHandler.createExampleUsers();
     	userList.setItems(model.UserListHandler.getNamesForUserListView());
-    	searchField.setFocusTraversable(true);
-    	
+    	   	
 
 		
     	
